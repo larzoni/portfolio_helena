@@ -4,9 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
+.env
 
 # testing
 /coverage
+
+#pages
+/MailchimpForm.js
+/Newsletter.js
 
 # production
 /build
