@@ -5,6 +5,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Toolbox } from "./components/Toolbox";
 import { Testimonials } from "./components/Testimonials";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -18,6 +19,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      {/* <Toolbox /> */}
     </div>
   );
 }
