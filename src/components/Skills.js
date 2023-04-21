@@ -54,11 +54,10 @@ export const Skills = () => {
                     <h2>Skills </h2>
                     <p>
                       Currently I'm studying to become a Frontend Developer at
-                      Hyper Island, but I also have a lot of previous experience
-                      in both the music business as well as in retail. These are
-                      some skills I've obtained over the years through working
-                      with various artist projects and multiple teams while
-                      running my sole proprietorship for four years!
+                      Hyper Island and I also have a lot of previous experience
+                      from running my sole proprietorship. These are some skills
+                      I've obtained over the years through working with various
+                      projects and teams!
                     </p>
                     <Carousel
                       responsive={responsive}
