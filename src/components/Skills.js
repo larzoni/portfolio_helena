@@ -34,9 +34,9 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill">
       <div>
-        <img src={topdivider} className="b  " width={300}></img>
+        <img src={topdivider} className="banner-skills-divider"></img>
       </div>
       <Container>
         <TrackVisibility>
@@ -46,13 +46,15 @@ export const Skills = () => {
             >
               <Row>
                 <Col>
-                  <div className="skill-bx">
+                  <div className="skill-bx " id="skills">
                     <h2>Skills </h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quo aspernatur repellendus velit vero consequuntur maxime
-                      nemo ex optio eligendi minima, atque saepe eveniet
-                      delectus quis voluptates sunt placeat amet pariatur.
+                      Currently I'm studying to become a Frontend Developer at
+                      Hyper Island, but I also have a lot of previous experience
+                      in both the music business as well as in retail. These are
+                      some skills I've obtained over the years through working
+                      with various artist projects and multiple teams while
+                      running my sole proprietorship for four years!
                     </p>
                     <Carousel
                       responsive={responsive}

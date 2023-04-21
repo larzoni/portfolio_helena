@@ -2,7 +2,6 @@ import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import underconstruction from "../assets/img/underconstruction.png";
-import dividertwo from "../assets/img/project-testimonial-div.svg";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
@@ -36,11 +35,12 @@ export const Projects = () => {
               <Row>
                 <Col>
                   <h2>Most Recent Projects</h2>
+
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint aliquam amet dolorum eligendi adipisci, modi fuga
-                    rerum, deserunt alias ex neque veritatis similique natus,
-                    temporibus dolor a harum vero reprehenderit.
+                    Below I've displayed some of my current and most recent
+                    projects.<br></br>
+                    If you're curious to see more, don't forget to download my
+                    resume on top of this page!
                   </p>
 
                   <Row>
@@ -54,9 +54,6 @@ export const Projects = () => {
           )}
         </TrackVisibility>
       </Container>
-      <div>
-        <img src={dividertwo} className="project-testimonials-devider"></img>
-      </div>
     </section>
   );
 };

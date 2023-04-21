@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ComputersCanvas from "./Computer";
+import dividertwo from "../assets/img/project-testimonial-div.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dividerthree from "../assets/img/testimonial-contact-div.svg";
 import TrackVisibility from "react-on-screen";
@@ -53,6 +54,9 @@ export const Testimonials = () => {
 
   return (
     <section className="testimonials" id="testimonial">
+      <div>
+        <img src={dividertwo} className="project-testimonials-devider"></img>
+      </div>
       <Container>
         <Col>
           <TrackVisibility>
@@ -73,10 +77,10 @@ export const Testimonials = () => {
                 </h1>
 
                 <h5 className="d-flex text-center">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Obcaecati, quia placeat quae magnam cupiditate voluptatem
-                  consequatur sequi aliquam id animi, unde quo excepturi
-                  explicabo minima nobis iste tempora nesciunt? Sint.
+                  If you're curious to learn more about me feel free to ask for
+                  references from previous employers or collegues. Below I've
+                  also displayed some of my recently recieved Linkedin
+                  Recommendations.
                 </h5>
               </div>
             )}
