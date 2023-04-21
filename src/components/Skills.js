@@ -66,22 +66,26 @@ export const Skills = () => {
                       className="skill-slider"
                     >
                       <div className="item">
-                        <img src={webdevelopment} width={300} alt="Image"></img>
+                        <img
+                          src={webdevelopment}
+                          width={300}
+                          alt="webdevelopment"
+                        ></img>
                         <h5>Web Development</h5>
                       </div>
                       <div className="item">
-                        <img src={webdesign} width={300} alt="Image"></img>
+                        <img src={webdesign} width={300} alt="webdesign"></img>
                         <h5>Web Design</h5>
                       </div>
                       <div className="item">
-                        <img src={uxui} width={300} alt="Image"></img>
+                        <img src={uxui} width={300} alt="uxui"></img>
                         <h5>UX/UI</h5>
                       </div>
                       <div className="item">
                         <img
                           src={processfacilitation}
                           width={300}
-                          alt="Image"
+                          alt="processfacilitation"
                         ></img>
                         <h5>Process design and Facilitation</h5>
                       </div>
@@ -91,13 +95,13 @@ export const Skills = () => {
                           width={300}
                           alt="Image"
                         ></img>
-                        <h5>Project Management</h5>
+                        <h5>Project Management & Working Agile</h5>
                       </div>
                       <div className="item">
                         <img
                           width={300}
                           src={musicproduction}
-                          alt="Image"
+                          alt="musicproduction"
                         ></img>
                         <h5>Music Production</h5>
                       </div>
@@ -110,7 +114,12 @@ export const Skills = () => {
         </TrackVisibility>
       </Container>
       <div>
-        <img src={divider} className="skills-project-divider" width={300}></img>
+        <img
+          src={divider}
+          className="skills-project-divider"
+          width={300}
+          alt="divider"
+        ></img>
       </div>
     </section>
   );
