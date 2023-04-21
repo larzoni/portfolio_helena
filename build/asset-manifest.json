@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1ef5330.css",
+    "main.js": "/static/js/main.52d8c6d3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bgvideo.mp4": "/static/media/bgvideo.890c9d6ea3d4b5b305c8.mp4",
+    "static/media/helena_resume.pdf": "/static/media/helena_resume.22f14669cf042f95a00e.pdf",
+    "static/media/project-img1.png": "/static/media/project-img1.1584b09586e2952fa7e0.png",
+    "static/media/UI.svg": "/static/media/UI.1f467fe7d44075bad644c7d37c15f664.svg",
+    "static/media/musicproduction.svg": "/static/media/musicproduction.aba85d6c9c44462c61ed39027c497fc2.svg",
+    "static/media/processfacilitation.svg": "/static/media/processfacilitation.4a71c4b24dac79d1879fcd09452e535f.svg",
+    "static/media/webdevelopment.svg": "/static/media/webdevelopment.e5759ebbb16d3f99e13dd1e01c34d107.svg",
+    "static/media/underconstruction.png": "/static/media/underconstruction.a638851a70fc49a6e9f1.png",
+    "static/media/webdesign.svg": "/static/media/webdesign.6f1e04fd2041b13edf3eba804d2c6ae5.svg",
+    "static/media/contact-img.svg": "/static/media/contact-img.5470946009c92311b44af783254b57bb.svg",
+    "static/media/css.svg": "/static/media/css.79cdbaaacbe2e607a24cba777e745fa1.svg",
+    "static/media/html.svg": "/static/media/html.594a2f493c78228938c77a66356150f4.svg",
+    "static/media/javascript.svg": "/static/media/javascript.11a21a73f5e28faf137fc789b10238f1.svg",
+    "static/media/projectmanagement.svg": "/static/media/projectmanagement.e53bdb1b6579f621b52cd464c54f763f.svg",
+    "static/media/node.svg": "/static/media/node.93496dd2ce05bbfdc5747b2283cfb6f5.svg",
+    "static/media/react.svg": "/static/media/react.f283755963d6757553af7cd8500f825d.svg",
+    "static/media/next.svg": "/static/media/next.cd72419ae76963852d42719de81918d1.svg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/sixfeetlogo.svg": "/static/media/sixfeetlogo.a2289d6f2a466f27231042dcd2aff379.svg",
+    "static/media/insta.svg": "/static/media/insta.599ebff84b2253c8216ad4cfba4eda3e.svg",
+    "static/media/github.svg": "/static/media/github.d0d672158b1864182584e3bb47330111.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.e5332d010e3c62ca108626f22cd2022f.svg",
+    "static/media/testimonial-contact-div.svg": "/static/media/testimonial-contact-div.d2e7a6e928010eb59704b73d3e86b080.svg",
+    "static/media/project-testimonial-div.svg": "/static/media/project-testimonial-div.8b4a9572dc319e74dfe31c1302d018d2.svg",
+    "index.html": "/index.html",
+    "static/media/banner-skills-div.svg": "/static/media/banner-skills-div.feaa99aa7654e6790be25a9927460e6e.svg",
+    "static/media/skills-project-div.svg": "/static/media/skills-project-div.bedc04285b18aa098d3d6f68d28d5cac.svg",
+    "main.a1ef5330.css.map": "/static/css/main.a1ef5330.css.map",
+    "main.52d8c6d3.js.map": "/static/js/main.52d8c6d3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1ef5330.css",
+    "static/js/main.52d8c6d3.js"
+  ]
+}
