@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1ef5330.css",
-    "main.js": "/static/js/main.52d8c6d3.js",
+    "main.js": "/static/js/main.faaa2fef.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgvideo.mp4": "/static/media/bgvideo.890c9d6ea3d4b5b305c8.mp4",
     "static/media/helena_resume.pdf": "/static/media/helena_resume.22f14669cf042f95a00e.pdf",
@@ -33,11 +33,11 @@
     "static/media/banner-skills-div.svg": "/static/media/banner-skills-div.feaa99aa7654e6790be25a9927460e6e.svg",
     "static/media/skills-project-div.svg": "/static/media/skills-project-div.bedc04285b18aa098d3d6f68d28d5cac.svg",
     "main.a1ef5330.css.map": "/static/css/main.a1ef5330.css.map",
-    "main.52d8c6d3.js.map": "/static/js/main.52d8c6d3.js.map",
+    "main.faaa2fef.js.map": "/static/js/main.faaa2fef.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1ef5330.css",
-    "static/js/main.52d8c6d3.js"
+    "static/js/main.faaa2fef.js"
   ]
 }

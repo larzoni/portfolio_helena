@@ -93,7 +93,7 @@ export const Skills = () => {
                         <img
                           src={projectmanagement}
                           width={300}
-                          alt="Image"
+                          alt="projectmanagement"
                         ></img>
                         <h5>Project Management & Working Agile</h5>
                       </div>

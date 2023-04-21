@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import ComputersCanvas from "./Computer";
 import bgvideo from "../assets/videos/bgvideo.mp4";
-import myResume from "../assets/documents/helena_resume.pdf";
+import myResume from "../assets/documents/resume.pdf";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -43,7 +43,7 @@ export const Banner = () => {
                         onClick={() => {
                           const link = document.createElement("a");
                           link.href = myResume;
-                          link.download = "helena_resume.pdf";
+                          link.download = "resume.pdf";
                           link.click();
                         }}
                       >
