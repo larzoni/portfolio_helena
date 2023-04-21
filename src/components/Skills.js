@@ -36,7 +36,11 @@ export const Skills = () => {
   return (
     <section className="skill">
       <div>
-        <img src={topdivider} className="banner-skills-divider"></img>
+        <img
+          src={topdivider}
+          className="banner-skills-divider"
+          alt="divider"
+        ></img>
       </div>
       <Container>
         <TrackVisibility>

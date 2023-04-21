@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ComputersCanvas from "./Computer";
 import dividertwo from "../assets/img/project-testimonial-div.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dividerthree from "../assets/img/testimonial-contact-div.svg";
@@ -55,7 +54,11 @@ export const Testimonials = () => {
   return (
     <section className="testimonials" id="testimonial">
       <div>
-        <img src={dividertwo} className="project-testimonials-devider"></img>
+        <img
+          src={dividertwo}
+          className="project-testimonials-devider"
+          alt="divider"
+        ></img>
       </div>
       <Container>
         <Col>
@@ -149,7 +152,7 @@ export const Testimonials = () => {
       <img
         src={dividerthree}
         className="project-testimonials-devider"
-        alt="Image"
+        alt="divider"
       ></img>
     </section>
   );
