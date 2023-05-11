@@ -9,18 +9,6 @@ import skill5 from "../assets/img/next.svg";
 import skill6 from "../assets/img/node.svg";
 
 export const Toolbox = () => {
-  const defaultOptions = {
-    reverse: false,
-    max: 35,
-    perspective: 1000,
-    scale: 1.1,
-    speed: 1000,
-    transition: true,
-    axis: null,
-    reset: true,
-    easing: "cubic-bezier(.03,.98,.52,.99)",
-  };
-
   return (
     <section className="toolbox-wrapper">
       <Container fluid>

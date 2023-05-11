@@ -9,7 +9,6 @@ import webdesign from "../assets/img/webdesign.svg";
 import webdevelopment from "../assets/img/webdevelopment.svg";
 import divider from "../assets/img/skills-project-div.svg";
 import topdivider from "../assets/img/banner-skills-div.svg";
-import TrackVisibility from "react-on-screen";
 import "animate.css";
 
 export const Skills = () => {
@@ -43,74 +42,68 @@ export const Skills = () => {
         ></img>
       </div>
       <Container>
-        <TrackVisibility>
-          {({ isVisible }) => (
-            <div
-              className={isVisible ? "animate__animated animate__fadeIn" : ""}
-            >
-              <Row>
-                <Col>
-                  <div className="skill-bx " id="skills">
-                    <h2>Skills </h2>
-                    <p>
-                      Currently I'm studying to become a Frontend Developer at
-                      Hyper Island and I also have a lot of previous experience
-                      from running my sole proprietorship. These are some skills
-                      I've obtained over the years through working with various
-                      projects and teams!
-                    </p>
-                    <Carousel
-                      responsive={responsive}
-                      infinite={true}
-                      className="skill-slider"
-                    >
-                      <div className="item">
-                        <img
-                          src={webdevelopment}
-                          width={300}
-                          alt="webdevelopment"
-                        ></img>
-                        <h5>Web Development</h5>
-                      </div>
-                      <div className="item">
-                        <img src={webdesign} width={300} alt="webdesign"></img>
-                        <h5>Web Design</h5>
-                      </div>
-                      <div className="item">
-                        <img src={uxui} width={300} alt="uxui"></img>
-                        <h5>UX/UI</h5>
-                      </div>
-                      <div className="item">
-                        <img
-                          src={processfacilitation}
-                          width={300}
-                          alt="processfacilitation"
-                        ></img>
-                        <h5>Process design and Facilitation</h5>
-                      </div>
-                      <div className="item">
-                        <img
-                          src={projectmanagement}
-                          width={300}
-                          alt="projectmanagement"
-                        ></img>
-                        <h5>Project Management & Working Agile</h5>
-                      </div>
-                      <div className="item">
-                        <img
-                          width={300}
-                          src={musicproduction}
-                          alt="musicproduction"
-                        ></img>
-                        <h5>Music Production</h5>
-                      </div>
-                    </Carousel>
+        <div>
+          <Row>
+            <Col>
+              <div className="skill-bx " id="skills">
+                <h2>Skills </h2>
+                <p>
+                  Currently I'm studying to become a Frontend Developer at Hyper
+                  Island and I also have a lot of previous experience from
+                  running my sole proprietorship. These are some skills I've
+                  obtained over the years through working with various projects
+                  and teams!
+                </p>
+                <Carousel
+                  responsive={responsive}
+                  infinite={true}
+                  className="skill-slider"
+                >
+                  <div className="item">
+                    <img
+                      src={webdevelopment}
+                      width={300}
+                      alt="webdevelopment"
+                    ></img>
+                    <h5>Web Development</h5>
                   </div>
-                </Col>
-              </Row>
-            </div>
-          )}
-        </TrackVisibility>
+                  <div className="item">
+                    <img src={webdesign} width={300} alt="webdesign"></img>
+                    <h5>Web Design</h5>
+                  </div>
+                  <div className="item">
+                    <img src={uxui} width={300} alt="uxui"></img>
+                    <h5>UX/UI</h5>
+                  </div>
+                  <div className="item">
+                    <img
+                      src={processfacilitation}
+                      width={300}
+                      alt="processfacilitation"
+                    ></img>
+                    <h5>Process design and Facilitation</h5>
+                  </div>
+                  <div className="item">
+                    <img
+                      src={projectmanagement}
+                      width={300}
+                      alt="projectmanagement"
+                    ></img>
+                    <h5>Project Management & Working Agile</h5>
+                  </div>
+                  <div className="item">
+                    <img
+                      width={300}
+                      src={musicproduction}
+                      alt="musicproduction"
+                    ></img>
+                    <h5>Music Production</h5>
+                  </div>
+                </Carousel>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Container>
       <div>
         <img

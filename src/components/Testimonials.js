@@ -1,56 +1,9 @@
-import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import dividertwo from "../assets/img/project-testimonial-div.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import dividerthree from "../assets/img/testimonial-contact-div.svg";
-import TrackVisibility from "react-on-screen";
 
 export const Testimonials = () => {
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
-  const toRotate = ["Testimonials"];
-  const period = 1000;
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
-
-  const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
-
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
-      setDelta(period);
-    } else if (isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setIndex(1);
-      setDelta(500);
-    } else {
-      setIndex((prevIndex) => prevIndex + 1);
-    }
-  };
-
   return (
     <section className="testimonials" id="testimonial">
       <div>
@@ -62,32 +15,15 @@ export const Testimonials = () => {
       </div>
       <Container>
         <Col>
-          <TrackVisibility>
-            {({ isVisible }) => (
-              <div
-                className={
-                  isVisible ? "animate__animated animate__bounceInLeft" : ""
-                }
-              >
-                <h1>
-                  <span
-                    className="txt-rotate"
-                    dataPeriod="1000"
-                    data-rotate='[ "Skills" ]'
-                  >
-                    <span className="wrap">{text}</span>
-                  </span>
-                </h1>
+          <div>
+            <h1>Testimonials</h1>
 
-                <h5 className="d-flex text-center">
-                  If you're curious to learn more about me feel free to ask for
-                  references from previous employers or collegues. Below I've
-                  also displayed some of my recently recieved Linkedin
-                  Recommendations.
-                </h5>
-              </div>
-            )}
-          </TrackVisibility>
+            <h5 className="d-flex text-center">
+              If you're curious to learn more about me feel free to ask for
+              references from previous employers or collegues. Below I've also
+              displayed some of my recently recieved Linkedin Recommendations.
+            </h5>
+          </div>
         </Col>
         <div className="testimonials-wrapper">
           <Row className="align-items-center justify-content-center noGutters">
